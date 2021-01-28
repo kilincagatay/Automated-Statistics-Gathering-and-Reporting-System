@@ -1,0 +1,76 @@
+.list{
+    width: 100%;
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.alignFilterSection{
+    position: fixed;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow:0 8px 15px rgba(0, 0, 0, 0.1);
+    margin:0;
+    width:100%;
+    background-color: #343A40;
+    z-index:999;
+    top:0;
+}
+.bodyAlign{
+    width: 80%;
+    margin-top:200px;
+}
+.leftContainer{
+    position:fixed;
+    top:200px;
+}
+.newLeftContainer{
+    position:absolute;
+    top:200px;
+}
+
+
+.filterName{
+    background-color: white;
+    margin-bottom: 10px;
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color:blue;
+}
+
+.alignFilterName{
+    display:flex;
+    flex-direction: row;
+}
+
+.alignNavbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-link{
+    font-size: 20px;
+}
+.alignAbout{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+
+.alignMonth{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.alignMonthVertical{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
